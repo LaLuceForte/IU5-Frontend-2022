@@ -15,11 +15,11 @@ function getMinMax(str) {
       
     for (let k = 0; k<str.length ;k++)
     {
-        console.log('sum = ', sum);
+       
         if (isNaN(str.charAt(k)) == false&& str.charAt(k)!=' ' )
         {
             
-            //console.log(parseInt(str.charAt(k)));
+            
             sum+= parseInt(str.charAt(k));
            
           
