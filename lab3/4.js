@@ -16,5 +16,5 @@ function prettySum(arr) {
    summ*=arr[arr.length - 1]
    return summ;
 }
-console.log(prettySum([-4, -1, 3, 5]));
+
 module.exports = prettySum;

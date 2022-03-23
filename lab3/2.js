@@ -69,9 +69,6 @@ function getMinMax(str) {
 
 
 
-str = '-77 7oooo9999.89 -700'
-console.log(getMinMax(str));
-
 
 
 
@@ -81,38 +78,3 @@ module.exports = getMinMax;
 
 
 
-// if (isNaN(str.charAt(k+1)) == true || str.charAt(k+1)==' ')
-// {
-    
-//     if(str.charAt(k - sum.length) == '-')
-//     {
-//             sum*=(-1)
-//     }
-//     if (str.charAt(k+1) == '.')
-//     {
-//         t = 1
-//         sum+='.'
-//         help++
-//         while(flag == true)
-//         {
-//             if (isNaN(str.charAt(k+1+t)) == false)
-//             {
-//                 sum+=str.charAt(k+1+t)
-//                 t++
-//                 help++
-
-//             }
-//             else
-//             {
-//                 flag = false
-//             }
-//         }
-//     }
-   
-//     num_arr[p] = sum
-//     p+=1
-    
-//     sum = ''
-// }
-
-// }
