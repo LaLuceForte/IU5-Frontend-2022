@@ -17,7 +17,12 @@
 */
 
 function get1DArray(arr) {
-    //code here
+    d = 1
+    return d > 0 ? arr.reduce((acc, val) => acc.concat(Array.isArray(val) ? get1DArray(val, d - 1) : val), [])
+    : arr.slice();
 }
+
+const arr = [[2],[[4],[5]]];
+console.log(get1DArray(arr));
 
 module.exports = get1DArray;
