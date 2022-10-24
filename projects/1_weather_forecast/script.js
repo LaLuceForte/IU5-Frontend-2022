@@ -4,6 +4,7 @@ const input = document.querySelector('.input_search_box');
 const box = document.querySelector('.box');
 const box_err = document.querySelector('.box_err');
 let a = false;
+
 searchButton.addEventListener('click',function(event){
     searchBarText.classList.toggle('active');
     setTimeout(()=>{
@@ -13,7 +14,7 @@ searchButton.addEventListener('click',function(event){
 // }, {once:true});
 
  let apiKey = "fd1cdbcd855978406b13dd2441b706a8";
- 
+
  let city = "Moscow";
  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
 
